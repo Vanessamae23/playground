@@ -7,6 +7,7 @@
  if [ -s raw_data.csv ]
  then
     echo "Done."
+    bash transform.sh
  else
     echo "Something Went Wrong."
  fi
